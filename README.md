@@ -4,9 +4,14 @@
 
 </div>
 
-
 <p align="center">
     <img src="assets/logo.png" alt="KIZAK Logo" width="200"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/status-in%20progress-yellow" />
+  <img src="https://img.shields.io/badge/license-MIT-green" />
+  <img src="https://img.shields.io/badge/build-Docker-blue" />
 </p>
 
 <div align="center">
@@ -15,24 +20,23 @@
 
 </div>
 
-
 KIZAK is an AI-powered learning assistant designed to guide users through their journey in the IT field. It builds personalized learning paths, recommends daily and weekly tasks, and supports users with a smart AI coach—all while keeping track of their skills and progress.
 
 ---
 
 ## 📋 Index
 
-- [🚀 Features](#🚀-features)  
-- [🛠️ Tech Stack](#🛠️-tech-stack)  
-- [🗺️ Roadmap](#🗺️-roadmap)  
-- [⚙️ Usage](#usage)  
-- [🐞 Open Issues and Contribution](#open-issues-and-contribution)  
-- [👥 Authors](#authors)  
-- [📄 License](#license)  
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Roadmap](#roadmap)  
+- [Usage](#usage)  
+- [Open Issues and Contribution](#open-issues-and-contribution)  
+- [Authors](#authors)  
+- [License](#license)
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Onboarding:** Personalized user profile creation with topic selection and skill assessment  
 - **ML Agent:** AI-driven roadmap generation tailored to user goals and skills  
@@ -43,12 +47,18 @@ KIZAK is an AI-powered learning assistant designed to guide users through their 
 
 ---
 
-## 🛠️ Tech Stack
-TODO 
+## Tech Stack
+
+- **Frontend:** React, TypeScript, TailwindCSS  
+- **Backend:** FastAPI (Python)  
+- **Database:** PostgreSQL  
+- **Machine Learning:** Scikit-learn, HuggingFace Transformers  
+- **DevOps:** Docker, Docker Compose, GitHub Actions  
+- **Authentication:** OAuth2 (LinkedIn, GitHub)
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 ### 🧠 Week 1 – Project Planning
 - 🟢 Finalize project idea and scope
@@ -87,18 +97,19 @@ TODO
 
 ---
 
-## ⚙️ Usage
+## Usage
 
-First of all, get our project
+First, clone the project:
 
 ```bash
 git clone https://github.com/LowIQCoder/KIZAK_Capstone
 cd KIZAK_Capstone
 ```
 
-Now you need to create the following **.env** file
-
+Now, create a **.env** file in the project root with the following content:
 ```bash
+# ⚠️ Do NOT commit this file to version control
+
 # Deploy
 HOST_BASE="localhost"
 
@@ -116,65 +127,69 @@ DB_USER="myuser"
 DB_PASSWORD="mypassword"
 ```
 
-Now build and run our project with use of **docker compose**
+
+Then build and run the project using Docker Compose:
 
 ```bash
 docker-compose up --build
 ```
 
-Now access and test **KIZAK** on [localhost](http://localhost:80)
+Visit [localhost](http://localhost) to access KIZAK.
 
----
-
-## 🐞 Open Issues and Contribution
+## Open Issues and Contribution
 
 Check the [Issues](https://github.com/yourusername/kizak/issues) tab to see current bugs, feature requests, and improvements.
 
-### 👥 Want to Contribute?
 
-We welcome contributions from the community! Here's how you can help:
+### 👥 How to Contribute
 
-Fork the repository and clone it
-```bash
-git clone https://github.com/yourusername/kizak.git
-```
+We welcome contributions from the community! Here's how to get started:
 
-Create a new branch 
-```bash
-git checkout -b feature/your-feature-name
-```
-Add your feature and push
-```bash
-git commit -m "Add: your detailed message here"
-git push origin feature/your-feature-name
-```
+1. **Fork the repository and clone it:**
 
-Finally, open a *pull request*, describe your changes clearly and link to any related issues
+   ```bash
+   git clone https://github.com/yourusername/kizak.git
+   ```
 
-Before submitting a PR:
-* Ensure code is formatted and linted
-* Test your changes locally
-* Reference relevant issue numbers if applicable
+2. **Create a new feature branch:**
 
----
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
 
-## 👥 Authors
+3. **Make your changes, commit, and push:**
 
-| Team Member           | Email Address                      | Responsibilities        |
-|-----------------------|----------------------------------|-------------------------|
-| Marsel Berheev (Lead) | m.berheev@innopolis.univesity    | DevOps                  |
-| Makar Egorov          | m.egorov@innopolis.univesity     | Backend                 |
-| Timur Farizunov       | t.farizunov@innopolis.univesity  | Frontend                |
-| Maksim Malov          | m.malov@innopolis.univesity      | Backend                 |
-| Sarmat Lutfullin      | s.lutfullin@innopolis.univesity  | Frontend                |
-| Ulyana Chaikovskaya   | u.chaikouskaya@innopolis.univesity | [Responsibilities TBD] |
-| Kseniia Khudiakova    | k.khudiakova@innopolis.univesity | ML                      |
+   ```bash
+   git commit -m "Add: your detailed message here"
+   git push origin feature/your-feature-name
+   ```
 
+4. **Open a pull request** with a clear description and reference any related issues.
 
+✅ Before submitting a PR:
+
+* Ensure your code is clean, linted, and tested
+* Keep commits descriptive and scoped
+* Link related issues (e.g., `Closes #123`)
+
+</details>
 
 ---
 
-## 📄 License
+### 👥 Authors
 
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+| Name                  | Email Address                                                                     | Responsibilities        |
+| --------------------- | --------------------------------------------------------------------------------- | ----------------------- |
+| Marsel Berheev (Lead) | [m.berheev@innopolis.university](mailto:m.berheev@innopolis.university)           | DevOps                  |
+| Makar Egorov          | [m.egorov@innopolis.university](mailto:m.egorov@innopolis.university)             | Backend                 |
+| Timur Farizunov       | [t.farizunov@innopolis.university](mailto:t.farizunov@innopolis.university)       | Frontend                |
+| Maksim Malov          | [m.malov@innopolis.university](mailto:m.malov@innopolis.university)               | Backend                 |
+| Sarmat Lutfullin      | [s.lutfullin@innopolis.university](mailto:s.lutfullin@innopolis.university)       | Frontend                |
+| Ulyana Chaikovskaya   | [u.chaikouskaya@innopolis.university](mailto:u.chaikouskaya@innopolis.university) | \[Responsibilities TBD] |
+| Kseniia Khudiakova    | [k.khudiakova@innopolis.university](mailto:k.khudiakova@innopolis.university)     | ML                      |
 
+---
+
+### 📄 License
+
+This project is licensed under the [**MIT License**](LICENSE).
