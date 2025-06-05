@@ -22,13 +22,13 @@ KIZAK is an AI-powered learning assistant designed to guide users through their 
 
 ## 📋 Index
 
-- [Features](#features)  
-- [Tech Stack](#tech-stack)  
-- [Roadmap](#roadmap)  
-- [Usage](#usage)  
-- [Open Issues](#open-issues)  
-- [Authors](#authors)  
-- [License](#license)  
+- [🚀 Features](#features)  
+- [🛠️ Tech Stack](#tech-stack)  
+- [🗺️ Roadmap](#roadmap)  
+- [⚙️ Usage](#usage)  
+- [🐞 Open Issues and Contribution](#open-issues-and-contribution)  
+- [👥 Authors](#authors)  
+- [📄 License](#license)  
 
 ---
 
@@ -44,52 +44,133 @@ KIZAK is an AI-powered learning assistant designed to guide users through their 
 ---
 
 ## 🛠️ Tech Stack
-
-- **Frontend:** React / Next.js (planned)  
-- **Backend:** FastAPI / Node.js (planned)  
-- **Database:** PostgreSQL / MongoDB  
-- **Machine Learning:** Python (scikit-learn, Transformers)  
-- **Third-party APIs:** LinkedIn API, GitHub API, OAuth2  
+TODO 
 
 ---
 
 ## 🗺️ Roadmap
 
-- Complete onboarding workflow and user profiling  
-- Develop ML model for personalized roadmap generation  
-- Implement recommendation engine for courses and tasks  
-- Build AI Coach chatbot with conversational capabilities  
-- Add resume generation module  
-- Integrate LinkedIn, GitHub, and OAuth logins  
-- UI/UX improvements and responsive design  
-- Beta testing and user feedback incorporation  
+### 🧠 Week 1 – Project Planning
+- 🟢 Finalize project idea and scope
+- 🟢 Define user profiling structure
+- 🟢 Choose tech stack
+
+### 🧪 Week 2 – Prototyping
+- 🟡 Gather and refine functional/non-functional requirements
+- 🟡 Create UI/UX design prototype
+- 🟡 Build basic frontend structure
+- 🟡 Set up backend architecture and API contracts
+
+### ⚙️ Week 3 – MVP v0
+- 🔴 Implement core features (onboarding, roadmap engine)
+- 🔴 Design and build initial database schema
+- 🔴 Prepare working MVP demo
+
+### 🧪 Week 4 – Testing & Deployment
+- 🔴 Implement CI/CD pipeline
+- 🔴 Add unit and integration tests
+- 🔴 Deploy MVP to test/staging environment
+
+### 🎨 Week 5 – Polishing
+- 🔴 Gather feedback from initial users/stakeholders
+- 🔴 Refactor codebase and improve UX/UI
+- 🔴 Fix bugs and optimize performance
+
+### 🧾 Week 6 – Finalization
+- 🔴 Finalize all project components
+- 🔴 Prepare project documentation
+- 🔴 Build and design presentation materials
+
+### 🎤 Week 7 – Final Presentation
+- 🔴 Rehearse and deliver final presentation
+- 🔴 Submit final deliverables
 
 ---
 
 ## ⚙️ Usage
 
-1. Clone the repository  
-2. Install dependencies (`npm install` for frontend, `pip install -r requirements.txt` for backend)  
-3. Configure environment variables (API keys, database connection, OAuth credentials)  
-4. Run backend server (`uvicorn main:app --reload`)  
-5. Run frontend development server (`npm start`)  
-6. Open your browser at `http://localhost:3000` to start  
+First of all, get our project
 
-*(Detailed instructions will be added as development progresses)*
+```bash
+git clone https://github.com/LowIQCoder/KIZAK_Capstone
+cd KIZAK_Capstone
+```
+
+Now you need to create the following **.env** file
+
+```bash
+# Deploy
+HOST_BASE="localhost"
+
+# Backend
+API_PORT="8000"
+
+# Frontend
+FRONT_PORT="80"
+
+# Database
+DB_HOST="localhost"
+DB_PORT="5432"
+DB_NAME="mydatabase"
+DB_USER="myuser"
+DB_PASSWORD="mypassword"
+```
+
+Now build and run our project with use of **docker compose**
+
+```bash
+docker-compose up --build
+```
+
+Now access and test **KIZAK** on [localhost](http://localhost:80)
 
 ---
 
-## 🐞 Open Issues
+## 🐞 Open Issues and Contribution
 
 Check the [Issues](https://github.com/yourusername/kizak/issues) tab to see current bugs, feature requests, and improvements.
+
+### 👥 Want to Contribute?
+
+We welcome contributions from the community! Here's how you can help:
+
+Fork the repository and clone it
+```bash
+git clone https://github.com/yourusername/kizak.git
+```
+
+Create a new branch 
+```bash
+git checkout -b feature/your-feature-name
+```
+Add your feature and push
+```bash
+git commit -m "Add: your detailed message here"
+git push origin feature/your-feature-name
+```
+
+Finally, open a *pull request*, describe your changes clearly and link to any related issues
+
+Before submitting a PR:
+* Ensure code is formatted and linted
+* Test your changes locally
+* Reference relevant issue numbers if applicable
 
 ---
 
 ## 👥 Authors
 
-- **Your Name** – *Project Lead & ML Developer*  
-- **Collaborator 1** – *Frontend Developer*  
-- **Collaborator 2** – *Backend Developer*  
+| Team Member           | Email Address                      | Responsibilities        |
+|-----------------------|----------------------------------|-------------------------|
+| Marsel Berheev (Lead) | m.berheev@innopolis.univesity    | DevOps                  |
+| Makar Egorov          | m.egorov@innopolis.univesity     | Backend                 |
+| Timur Farizunov       | t.farizunov@innopolis.univesity  | Frontend                |
+| Maksim Malov          | m.malov@innopolis.univesity      | Backend                 |
+| Sarmat Lutfullin      | s.lutfullin@innopolis.univesity  | Frontend                |
+| Ulyana Chaikovskaya   | u.chaikouskaya@innopolis.univesity | [Responsibilities TBD] |
+| Kseniia Khudiakova    | k.khudiakova@innopolis.univesity | ML                      |
+
+
 
 ---
 
