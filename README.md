@@ -27,12 +27,12 @@ KIZAK is an AI-powered learning assistant designed to guide users through their 
 ## 📋 Index
 
 - [🚀 Features](#-features)  
-- [Tech Stack](#tech-stack)  
-- [Roadmap](#roadmap)  
-- [Usage](#usage)  
-- [Open Issues and Contribution](#open-issues-and-contribution)  
-- [Authors](#authors)  
-- [License](#license)
+- [🛠️ Tech Stack](#-tech-stack)  
+- [🗺️ Roadmap](#-roadmap)  
+- [⚙️Usage](#-usage)  
+- [🐞 Open Issues and Contribution](#-open-issues-and-contribution)  
+- [👥 Authors](#-authors)  
+- [📄 License](#-license)
 
 ---
 
@@ -47,7 +47,7 @@ KIZAK is an AI-powered learning assistant designed to guide users through their 
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Frontend:** React, TypeScript, TailwindCSS  
 - **Backend:** FastAPI (Python)  
@@ -58,7 +58,7 @@ KIZAK is an AI-powered learning assistant designed to guide users through their 
 
 ---
 
-## Roadmap
+## 🗺️ Roadmap
 
 ### 🧠 Week 1 – Project Planning
 - 🟢 Finalize project idea and scope
@@ -97,7 +97,7 @@ KIZAK is an AI-powered learning assistant designed to guide users through their 
 
 ---
 
-## Usage
+## ⚙️ Usage
 
 First, clone the project:
 
@@ -136,7 +136,7 @@ docker-compose up --build
 
 Visit [localhost](http://localhost) to access KIZAK.
 
-## Open Issues and Contribution
+## 🐞 Open Issues and Contribution
 
 Check the [Issues](https://github.com/yourusername/kizak/issues) tab to see current bugs, feature requests, and improvements.
 
@@ -176,7 +176,7 @@ We welcome contributions from the community! Here's how to get started:
 
 ---
 
-### Authors
+## 👥 Authors
 
 | Name                  | Email Address                                                                     | Responsibilities        |
 | --------------------- | --------------------------------------------------------------------------------- | ----------------------- |
@@ -190,6 +190,6 @@ We welcome contributions from the community! Here's how to get started:
 
 ---
 
-### License
+## 📄 License
 
 This project is licensed under the [**MIT License**](LICENSE).
