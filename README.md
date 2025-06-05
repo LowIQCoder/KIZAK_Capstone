@@ -176,7 +176,7 @@ We welcome contributions from the community! Here's how to get started:
 
 ---
 
-### 👥 Authors
+### Authors
 
 | Name                  | Email Address                                                                     | Responsibilities        |
 | --------------------- | --------------------------------------------------------------------------------- | ----------------------- |
@@ -190,6 +190,6 @@ We welcome contributions from the community! Here's how to get started:
 
 ---
 
-### 📄 License
+### License
 
 This project is licensed under the [**MIT License**](LICENSE).
