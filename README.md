@@ -26,7 +26,7 @@ KIZAK is an AI-powered learning assistant designed to guide users through their 
 
 ## 📋 Index
 
-- [Features](#features)  
+- [🚀 Features](#-features)  
 - [Tech Stack](#tech-stack)  
 - [Roadmap](#roadmap)  
 - [Usage](#usage)  
@@ -36,7 +36,7 @@ KIZAK is an AI-powered learning assistant designed to guide users through their 
 
 ---
 
-## Features
+## 🚀 Features
 
 - **Onboarding:** Personalized user profile creation with topic selection and skill assessment  
 - **ML Agent:** AI-driven roadmap generation tailored to user goals and skills  
