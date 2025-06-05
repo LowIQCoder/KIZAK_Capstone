@@ -1,1 +1,0 @@
-# KIZAK Capstone Project
