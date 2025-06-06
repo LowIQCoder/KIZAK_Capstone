@@ -49,12 +49,7 @@ KIZAK is an AI-powered learning assistant designed to guide users through their 
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React, TypeScript, TailwindCSS  
-- **Backend:** FastAPI (Python)  
-- **Database:** PostgreSQL  
-- **Machine Learning:** Scikit-learn, HuggingFace Transformers  
-- **DevOps:** Docker, Docker Compose, GitHub Actions  
-- **Authentication:** OAuth2 (LinkedIn, GitHub)
+TODO
 
 ---
 
