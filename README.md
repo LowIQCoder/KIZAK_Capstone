@@ -180,7 +180,7 @@ We welcome contributions from the community! Here's how to get started:
 | Timur Farizunov       | [t.farizunov@innopolis.university](mailto:t.farizunov@innopolis.university)       | Frontend                |
 | Maksim Malov          | [m.malov@innopolis.university](mailto:m.malov@innopolis.university)               | Backend                 |
 | Sarmat Lutfullin      | [s.lutfullin@innopolis.university](mailto:s.lutfullin@innopolis.university)       | Frontend                |
-| Ulyana Chaikovskaya   | [u.chaikouskaya@innopolis.university](mailto:u.chaikouskaya@innopolis.university) | \[Responsibilities TBD] |
+| Ulyana Chaikovskaya   | [u.chaikouskaya@innopolis.university](mailto:u.chaikouskaya@innopolis.university) | ML                      |
 | Kseniia Khudiakova    | [k.khudiakova@innopolis.university](mailto:k.khudiakova@innopolis.university)     | ML                      |
 
 ---
